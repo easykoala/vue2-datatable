@@ -1,6 +1,6 @@
 <template>
   <div class="btn-group" name="HeaderSettings">
-    <button class="btn btn-default dropdown-toggle" ref="dropdownBtn" type="button">
+    <button class="btn btn-default dropdown-toggle" ref="dropdownBtn" type="button" data-toggle="dropdown">
       <i class="fa" :class="[usingBak && 'text-info', processingCls || 'fa-cog']"></i>
       <span class="caret"></span>
     </button>
